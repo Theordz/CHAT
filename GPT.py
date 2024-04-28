@@ -11,8 +11,7 @@ if PROGRAM == "ON":
         st.markdown(requests.__file__)
         r = requests.get('https://chat.openai.com/')
         st.markdown (r.url)
-        st.markdown("Paste the following prompt when you enter the website: 'Speak like you are a chef making meals based off what the user gives you'")
-        st.markdown("Please open the blue link.")
+        st.markdown("Please open the blue link and Paste the following prompt when you enter the website: 'Speak like you are a chef making meals based off what the user gives you'")
         
         PROGRAM == "OFF"
         quit()    
