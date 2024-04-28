@@ -1,6 +1,7 @@
 
 import streamlit as st
 from PIL import Image
+image = Image.open('C:\Users\theor\Downloads\WOW.png')
 st.header("Ai Tool for Meal suggestions", divider='gray')
 st.subheader("By Spencer, Joel, and Theo")
 PROGRAM = "ON"
@@ -14,3 +15,4 @@ if PROGRAM == "ON":
         st.markdown("Please open the blue link.")
         PROGRAM == "OFF"
         quit()    
+st.image(image)
