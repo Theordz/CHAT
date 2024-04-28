@@ -9,7 +9,7 @@ if PROGRAM == "ON":
     if button_clicked:
         import requests
         st.markdown(requests.__file__)
-        r = requests.get('https://chat.openai.com/c/455ea111-016d-4fe8-88b7-3b48d5511f7b')
+        r = requests.get('https://chat.openai.com/c/7acbb239-6602-412e-a542-7b2925f9777b')
         st.markdown (r.url)
         st.markdown("Please open the blue link.")
         PROGRAM == "OFF"
