@@ -9,8 +9,10 @@ if PROGRAM == "ON":
     if button_clicked:
         import requests
         st.markdown(requests.__file__)
-        r = requests.get('https://chat.openai.com/c/7acbb239-6602-412e-a542-7b2925f9777b')
+        r = requests.get('https://chat.openai.com/')
         st.markdown (r.url)
+        st.markdown("Paste the following prompt when you enter the website: 'Speak like you are a chef making meals based off what the user gives you'")
         st.markdown("Please open the blue link.")
+        
         PROGRAM == "OFF"
         quit()    
